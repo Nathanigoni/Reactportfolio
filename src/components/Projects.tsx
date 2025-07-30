@@ -9,15 +9,28 @@ import realimage from '../images/realapp.png';
 
 const Projects: React.FC = () => {
   const projects = [
+{
+  id: 1,
+  title: 'Ticketing System',
+  description: 'Full-stack ticketing system solution with React frontend and Spring Boot backend. Features include user authentication, ticket buying,location, and payment integration.',
+  image: ticketimg,
+  tech: ['React', 'Spring Boot', 'MongoDB', 'Stripe API'],
+  github: 'https://github.com/allcodez/Zoom-vroom-Frontend',
+  demo: 'https://ecommerce-demo.nathanigoni.dev',
+  date: '2024'
+},
     {
-      id: 1,
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React frontend and Spring Boot backend. Features include user authentication, product catalog, shopping cart, and payment integration.',
-      image: ticketimg,
-      tech: ['React', 'Spring Boot', 'MongoDB', 'Stripe API'],
-        github: 'https://github.com/allcodez/Zoom-vroom-Frontend',
-      demo: 'https://ecommerce-demo.nathanigoni.dev',
-      date: '2024'
+      id: 5,
+      title: 'Real Estate Platform',
+      description: 'Property listing and management platform with advanced search filters, virtual tours, and agent management system. Built with modern web technologies for optimal performance.',
+      longDescription: 'A comprehensive real estate platform that connects buyers, sellers, and agents. Features include advanced property search with multiple filters, virtual tour integration, agent profiles, property comparison tools, and mortgage calculator.',
+      image: realimage,
+      tech: ['React', 'Node.js', 'MySQL', 'Google Maps API', 'AWS', 'Stripe', 'JWT'],
+      github: 'https://github.com/Nathanigoni/nestfinder-nexus',
+      demo: 'https://realestate.nathanigoni.dev',
+      date: '2023',
+      status: 'In Progress',
+      category: 'Full-Stack'
     },
     {
       id: 2,

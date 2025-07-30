@@ -99,7 +99,7 @@ const HeroSection: React.FC = () => {
               Learn More About Me
             </motion.button>
             
-            <motion.a
+            {/* <motion.a
               href="/resume.pdf"
               download
               whileHover={{ scale: 1.05 }}
@@ -108,7 +108,7 @@ const HeroSection: React.FC = () => {
             >
               <Download className="h-5 w-5" />
               <span>Download Resume</span>
-            </motion.a>
+            </motion.a> */}
           </div>
 
           <div className="flex justify-center space-x-6">

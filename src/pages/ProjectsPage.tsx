@@ -14,8 +14,6 @@ const ProjectsPage: React.FC = () => {
     {
       id: 1,
       title: 'Tickecting App',
-      description: 'Full-stack Tickecting system solution built with React and Spring Boot. Features include user authentication and payment integration with Stripe. The application also includes an admin dashboard for inventory management.',
-      longDescription: 'This comprehensive e-commerce platform demonstrates my ability to build scalable, production-ready applications. The frontend is built with React and TypeScript, featuring a responsive design with modern UI components. The backend uses Spring Boot with MongoDB for data persistence, implementing RESTful APIs and JWT authentication.',
         image: ticketimg,
       tech: ['React', 'TypeScript', 'Spring Boot', 'MongoDB', 'Stripe API', 'JWT', 'Docker'],
       github: 'https://github.com/allcodez/Zoom-vroom-Frontend',
@@ -41,12 +39,12 @@ const ProjectsPage: React.FC = () => {
       title: 'Tik Tok clone',
       description: 'Full-featured blogging platform with rich text editor, comment system, and social sharing capabilities. Includes user authentication, post management, and SEO optimization.',
   image: tiktokimg,
-  tech: ['React', 'Express.js', 'MongoDB', 'JWT', 'Cloudinary', 'SEO', 'PWA'],
+  tech: ['html', 'css'],
        github: 'https://github.com/Nathanigoni/ticktock..clone',
   demo: 'https://blog.nathanigoni.dev',
   date: '2023',
   status: 'Completed',
-  category: 'Full-Stack'
+  category: 'Front End'
 },
     {
       id: 5,
